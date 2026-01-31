@@ -46,7 +46,7 @@ public class spawner : MonoBehaviour
     }
 
     Vector3 GetRandomCameraPosition()
-    {
+    {   
         float distanceToCamera = 10f; // Jarak dari kamera ke dunia game
 
         // Ambil batas layar (Viewport 0.0 sampai 1.0)
@@ -62,4 +62,3 @@ public class spawner : MonoBehaviour
 
     
 }
-
