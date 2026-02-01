@@ -50,22 +50,27 @@ public class spawner : MonoBehaviour
         currentSortingOrder++;
     }
 
-   Vector3 GetRandomCameraPosition()
+  Vector3 GetRandomCameraPosition()
 {
-    // Tentukan Z objek (misal spawn di z = 0)
     float spawnZ = 0f;
+    
+    // 1. Tentukan batas aman (0.1f berarti kasih jarak 10% dari pinggir layar)
+    float margin = 0.2f; 
 
-    // Hitung jarak dari kamera ke plane Z spawn
-    float distanceToCamera = Mathf.Abs(mainCamera.transform.position.z - spawnZ);
+    float randomXViewport = Random.Range(margin, 1f - margin);
+    float randomYViewport = Random.Range(margin, 1f - margin);
 
-    // Konversi viewport ke world point
-    Vector3 lowerLeft = mainCamera.ViewportToWorldPoint(new Vector3(0.1f, 0.1f, distanceToCamera));
-    Vector3 upperRight = mainCamera.ViewportToWorldPoint(new Vector3(0.9f, 0.9f, distanceToCamera));
+    // 2. Konversi dari koordinat layar (0-1) ke posisi di dunia game
+    Vector3 viewportPoint = new Vector3(randomXViewport, randomYViewport, 0f);
+    
+    // Hitung jarak kamera ke Z target
+    float distance = Mathf.Abs(mainCamera.transform.position.z - spawnZ);
+    viewportPoint.z = distance;
 
-    float randomX = Random.Range(lowerLeft.x, upperRight.x);
-    float randomY = Random.Range(lowerLeft.y, upperRight.y);
+    Vector3 worldPos = mainCamera.ViewportToWorldPoint(viewportPoint);
+    worldPos.z = spawnZ;
 
-    return new Vector3(randomX, randomY, spawnZ);
+    return worldPos;
 }
 
 

@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class SystemPenalty : MonoBehaviour
 {
     public static SystemPenalty instance;
@@ -8,9 +8,12 @@ public class SystemPenalty : MonoBehaviour
     public GameObject lightGlitch;
     public GameObject heavyGlitch;
     public GameObject jumpscareObject;
+    public GameObject gameOverPopup; // assign panel popup Game Over
+
 
     private int wrongCount = 0;
     private float lastWrongTime = 0f;
+    private bool isJumpscareActive = false;
 
     void Awake()
     {
@@ -25,6 +28,14 @@ public class SystemPenalty : MonoBehaviour
     Debug.Log("Jumpscare   : " + jumpscareObject);
 
     ResetAll();
+}
+void Update()
+{
+    // Cek jika jumpscare sedang aktif dan pemain mengklik layar (Mouse kiri atau Tap)
+   if (isJumpscareActive && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            ShowGameOverPopup();
+        }
 }
 
 
@@ -116,6 +127,7 @@ public class SystemPenalty : MonoBehaviour
     }
 
     jumpscareObject.SetActive(true);
+    isJumpscareActive = true; // Tandai bahwa jumpscare sedang muncul
     Debug.Log("JUMPSCARE BERHASIL DIAKTIFKAN: " + jumpscareObject.name);
 
     if (lightGlitch != null)
@@ -123,6 +135,22 @@ public class SystemPenalty : MonoBehaviour
 
     if (heavyGlitch != null)
         heavyGlitch.SetActive(false);
+
+    if (gameOverPopup != null)
+        gameOverPopup.SetActive(false);
+
+    // Pause game jika perlu
+    Time.timeScale = 0f;
+}
+void ShowGameOverPopup()
+{
+    isJumpscareActive = false; // Reset tanda agar tidak terpanggil terus menerus
+    
+    if (gameOverPopup != null)
+        gameOverPopup.SetActive(true);
+
+    // Pause game hanya SETELAH popup muncul
+    Time.timeScale = 0f;
 }
 
 
@@ -130,9 +158,15 @@ public class SystemPenalty : MonoBehaviour
     public void ResetAll()
     {
         wrongCount = 0;
+        isJumpscareActive = false;
 
         lightGlitch.SetActive(false);
         heavyGlitch.SetActive(false);
         jumpscareObject.SetActive(false);
+
+         if (gameOverPopup != null)
+             gameOverPopup.SetActive(false);
+
+    Time.timeScale = 1f;
     }
 }
