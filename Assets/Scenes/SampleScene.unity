@@ -153,7 +153,7 @@ MonoBehaviour:
   - {fileID: 7089381041501231185, guid: 1fd5a2df439ecdb4eba5f76ebf2e5d9e, type: 3}
   - {fileID: 5247301791361456970, guid: e101d2dd814ce754db3f2e474976a02b, type: 3}
   spawnInterval: 0.5
-  spawnDecreaseAmount: 0.2
+  spawnDecreaseAmount: 0.1
 --- !u!4 &51359095
 Transform:
   m_ObjectHideFlags: 0
@@ -776,7 +776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SystemPenalty
   lightGlitch: {fileID: 1659229367}
   heavyGlitch: {fileID: 1484617910}
-  jumpscareObject: {fileID: 442625435}
+  jumpscareObjects:
+  - {fileID: 442625435}
   gameOverPopup: {fileID: 1059940877}
   spawnerParent: {fileID: 51359095}
   maxPopUps: 999
@@ -1411,7 +1412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.5, y: 0}
   m_SizeDelta: {x: -1, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1484617912

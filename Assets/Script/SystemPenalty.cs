@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
 public class SystemPenalty : MonoBehaviour
 {
     public static SystemPenalty instance;
@@ -9,16 +8,17 @@ public class SystemPenalty : MonoBehaviour
     [Header("Objects")]
     public GameObject lightGlitch;
     public GameObject heavyGlitch;
-    public GameObject jumpscareObject;
-    public GameObject gameOverPopup; // panel Game Over
-    public Transform spawnerParent;   // parent spawner tombol
+    public GameObject[] jumpscareObjects;
+    public GameObject gameOverPopup; 
+    public Transform spawnerParent;   
 
     private int wrongCount = 0;
     private int correctCount = 0;
-    private float lastWrongTime = 0f;
     private bool isJumpscareActive = false;
     private bool isPopupShown = false;
     public int maxPopUps = 20;
+
+    private GameObject activeJumpscare; // Untuk melacak jumpscare yang terpilih
 
     void Awake()
     {
@@ -32,7 +32,6 @@ public class SystemPenalty : MonoBehaviour
 
     void Update()
     {
-        // cek spawn terlalu banyak
         if (!isJumpscareActive && spawnerParent != null)
         {
             if (spawnerParent.childCount >= maxPopUps)
@@ -41,8 +40,7 @@ public class SystemPenalty : MonoBehaviour
             }
         }
 
-        // cek klik untuk menampilkan popup setelah jumpscare
-         if (isJumpscareActive && Mouse.current.leftButton.wasPressedThisFrame)
+        if (isJumpscareActive && Mouse.current.leftButton.wasPressedThisFrame)
         {
             ShowGameOverPopup();
         }
@@ -52,7 +50,6 @@ public class SystemPenalty : MonoBehaviour
     {
         wrongCount++;
         correctCount = 0;
-        lastWrongTime = Time.time;
 
         if (wrongCount == 1)
             ActivateLightGlitch();
@@ -66,13 +63,9 @@ public class SystemPenalty : MonoBehaviour
     {
         if (wrongCount > 0)
         {
-            correctCount++; // Tambah hitungan benar
-            Debug.Log("Correct Count: " + correctCount);
-
-            // Jika sudah benar 2x, baru hapus semua glitch
+            correctCount++;
             if (correctCount >= 2)
             {
-                Debug.Log("Glitch Clear!");
                 ResetAll();
             }
         }
@@ -82,28 +75,35 @@ public class SystemPenalty : MonoBehaviour
     {
         if (lightGlitch != null) lightGlitch.SetActive(true);
         if (heavyGlitch != null) heavyGlitch.SetActive(false);
-        if (jumpscareObject != null) jumpscareObject.SetActive(false);
+        // Mematikan semua jumpscare di array
+        ToggleAllJumpscares(false);
     }
 
     void ActivateHeavyGlitch()
     {
         if (heavyGlitch != null) heavyGlitch.SetActive(true);
         if (lightGlitch != null) lightGlitch.SetActive(false);
-        if (jumpscareObject != null) jumpscareObject.SetActive(false);
+        ToggleAllJumpscares(false);
     }
 
     void ActivateJumpscare()
     {
-        if (jumpscareObject == null) return;
+        if (jumpscareObjects == null || jumpscareObjects.Length == 0) return;
 
-        jumpscareObject.SetActive(true);
-        isJumpscareActive = true;
-        isPopupShown = false; // reset flag popup
+        // Pilih random
+        int randomIndex = Random.Range(0, jumpscareObjects.Length);
+        activeJumpscare = jumpscareObjects[randomIndex];
+
+        if (activeJumpscare != null)
+        {
+            activeJumpscare.SetActive(true);
+            isJumpscareActive = true;
+            isPopupShown = false;
+        }
 
         if (lightGlitch != null) lightGlitch.SetActive(false);
         if (heavyGlitch != null) heavyGlitch.SetActive(false);
 
-        // langsung pause game
         Time.timeScale = 0f;
     }
 
@@ -112,22 +112,36 @@ public class SystemPenalty : MonoBehaviour
         if (gameOverPopup != null)
             gameOverPopup.SetActive(true);
 
-        isPopupShown = true; // agar popup tidak muncul berkali-kali
-        // Game tetap pause
+        if (activeJumpscare != null)
+            activeJumpscare.SetActive(false);
+
+        isPopupShown = true;
         Time.timeScale = 0f;
     }
 
     public void ResetAll()
     {
         wrongCount = 0;
+        correctCount = 0;
         isJumpscareActive = false;
         isPopupShown = false;
 
         if (lightGlitch != null) lightGlitch.SetActive(false);
         if (heavyGlitch != null) heavyGlitch.SetActive(false);
-        if (jumpscareObject != null) jumpscareObject.SetActive(false);
+        
+        ToggleAllJumpscares(false);
+
         if (gameOverPopup != null) gameOverPopup.SetActive(false);
 
         Time.timeScale = 1f;
+    }
+
+    // Fungsi bantuan untuk mematikan semua jumpscare dalam array
+    void ToggleAllJumpscares(bool state)
+    {
+        foreach (GameObject js in jumpscareObjects)
+        {
+            if (js != null) js.SetActive(state);
+        }
     }
 }

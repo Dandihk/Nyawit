@@ -13,7 +13,7 @@ public class spawner : MonoBehaviour
 
     // Ambil score dari GameManager
     private int lastSpeedIncreaseScore = 0;
-    public float spawnDecreaseAmount = 0.05f; // setiap 100 poin, spawn interval berkurang
+    public float spawnDecreaseAmount = 0.1f; // setiap 100 poin, spawn interval berkurang
 
     void Start()
     {
