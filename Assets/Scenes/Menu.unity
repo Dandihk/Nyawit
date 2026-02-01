@@ -152,10 +152,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 623356254}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.8321778, y: 0.091000006}
+  m_AnchorMin: {x: 0.6546716, y: 0.048861258}
   m_AnchorMax: {x: 0.9611111, y: 0.1956388}
-  m_AnchoredPosition: {x: -44.275757, y: -11.253128}
-  m_SizeDelta: {x: 79.647675, y: 31.196243}
+  m_AnchoredPosition: {x: -3.348503, y: 1.3006973}
+  m_SizeDelta: {x: -2.2068005, y: 6.0885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &387347688
 MonoBehaviour:
@@ -202,8 +202,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1861007781}
-        m_TargetAssemblyTypeName: pindahscene, Assembly-CSharp
-        m_MethodName: LoadGameScene
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: LoadSceneByName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1861007780}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4be74019a351b543bbb4c3b07ea7233, type: 3}
+  m_Script: {fileID: 11500000, guid: 957500c2c7a3e2b40a2f408c4f44b703, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::pindahscene
 --- !u!4 &1861007782
