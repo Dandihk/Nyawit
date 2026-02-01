@@ -701,6 +701,8 @@ MonoBehaviour:
   heavyGlitch: {fileID: 1173312404}
   jumpscareObject: {fileID: 442625435}
   gameOverPopup: {fileID: 1059940877}
+  spawnerParent: {fileID: 51359095}
+  maxPopUps: 20
 --- !u!4 &618578894
 Transform:
   m_ObjectHideFlags: 0

@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+
+
 public class SystemPenalty : MonoBehaviour
 {
     public static SystemPenalty instance;
@@ -8,12 +10,14 @@ public class SystemPenalty : MonoBehaviour
     public GameObject lightGlitch;
     public GameObject heavyGlitch;
     public GameObject jumpscareObject;
-    public GameObject gameOverPopup; // assign panel popup Game Over
-
+    public GameObject gameOverPopup; // panel Game Over
+    public Transform spawnerParent;   // parent spawner tombol
 
     private int wrongCount = 0;
     private float lastWrongTime = 0f;
     private bool isJumpscareActive = false;
+    private bool isPopupShown = false;
+    public int maxPopUps = 20;
 
     void Awake()
     {
@@ -21,152 +25,99 @@ public class SystemPenalty : MonoBehaviour
     }
 
     void Start()
-{
-    Debug.Log("=== CEK ISI REFERENCE DI START ===");
-    Debug.Log("LightGlitch : " + lightGlitch);
-    Debug.Log("HeavyGlitch : " + heavyGlitch);
-    Debug.Log("Jumpscare   : " + jumpscareObject);
+    {
+        ResetAll();
+    }
 
-    ResetAll();
-}
-void Update()
-{
-    // Cek jika jumpscare sedang aktif dan pemain mengklik layar (Mouse kiri atau Tap)
-   if (isJumpscareActive && Mouse.current.leftButton.wasPressedThisFrame)
+    void Update()
+    {
+        // cek spawn terlalu banyak
+        if (!isJumpscareActive && spawnerParent != null)
+        {
+            if (spawnerParent.childCount >= maxPopUps)
+            {
+                ActivateJumpscare();
+            }
+        }
+
+        // cek klik untuk menampilkan popup setelah jumpscare
+         if (isJumpscareActive && Mouse.current.leftButton.wasPressedThisFrame)
         {
             ShowGameOverPopup();
         }
-}
-
+    }
 
     public void WrongPressed()
     {
         wrongCount++;
         lastWrongTime = Time.time;
 
-        Debug.Log("Wrong Count: " + wrongCount);
-
         if (wrongCount == 1)
-        {
             ActivateLightGlitch();
-        }
         else if (wrongCount == 2)
-        {
             ActivateHeavyGlitch();
-        }
         else if (wrongCount >= 3)
-        {
             ActivateJumpscare();
-        }
     }
 
     public void CorrectPressed()
     {
-        Debug.Log("Correct pressed!");
-
-        // Kalau masih dalam 2 detik setelah salah terakhir
         if (wrongCount > 0 && Time.time - lastWrongTime <= 2f)
         {
-            Debug.Log("Glitch Reset!");
             ResetAll();
         }
     }
 
-   void ActivateLightGlitch()
-{
-    Debug.Log("LIGHT GLITCH AKTIF DIPANGGIL");
-
-    if (lightGlitch == null)
+    void ActivateLightGlitch()
     {
-        Debug.LogError("LIGHT GLITCH NULL! Object belum di-assign di inspector.");
+        if (lightGlitch != null) lightGlitch.SetActive(true);
+        if (heavyGlitch != null) heavyGlitch.SetActive(false);
+        if (jumpscareObject != null) jumpscareObject.SetActive(false);
     }
-    else
-    {
-        Debug.Log("LIGHT GLITCH BERHASIL DIAKTIFKAN");
-        lightGlitch.SetActive(true);
-    }
-
-    if (heavyGlitch != null)
-        heavyGlitch.SetActive(false);
-
-    if (jumpscareObject != null)
-        jumpscareObject.SetActive(false);
-}
-
 
     void ActivateHeavyGlitch()
-{
-    Debug.Log("HEAVY GLITCH AKTIF DIPANGGIL");
-
-    if (heavyGlitch == null)
     {
-        Debug.LogError("HEAVY GLITCH NULL! Object belum di-assign di inspector.");
-    }
-    else
-    {
-        Debug.Log("HEAVY GLITCH BERHASIL DIAKTIFKAN");
-        heavyGlitch.SetActive(true);
+        if (heavyGlitch != null) heavyGlitch.SetActive(true);
+        if (lightGlitch != null) lightGlitch.SetActive(false);
+        if (jumpscareObject != null) jumpscareObject.SetActive(false);
     }
 
-    if (lightGlitch != null)
-        lightGlitch.SetActive(false);
-
-    if (jumpscareObject != null)
-        jumpscareObject.SetActive(false);
-}
-
-
-   void ActivateJumpscare()
-{
-    Debug.Log("JUMPSCARE DIPANGGIL");
-
-    if (jumpscareObject == null)
+    void ActivateJumpscare()
     {
-        Debug.LogError("JUMPSCARE NULL! Object belum di-assign di inspector.");
-        return;
+        if (jumpscareObject == null) return;
+
+        jumpscareObject.SetActive(true);
+        isJumpscareActive = true;
+        isPopupShown = false; // reset flag popup
+
+        if (lightGlitch != null) lightGlitch.SetActive(false);
+        if (heavyGlitch != null) heavyGlitch.SetActive(false);
+
+        // langsung pause game
+        Time.timeScale = 0f;
     }
 
-    jumpscareObject.SetActive(true);
-    isJumpscareActive = true; // Tandai bahwa jumpscare sedang muncul
-    Debug.Log("JUMPSCARE BERHASIL DIAKTIFKAN: " + jumpscareObject.name);
+    void ShowGameOverPopup()
+    {
+        if (gameOverPopup != null)
+            gameOverPopup.SetActive(true);
 
-    if (lightGlitch != null)
-        lightGlitch.SetActive(false);
-
-    if (heavyGlitch != null)
-        heavyGlitch.SetActive(false);
-
-    if (gameOverPopup != null)
-        gameOverPopup.SetActive(false);
-
-    // Pause game jika perlu
-    Time.timeScale = 0f;
-}
-void ShowGameOverPopup()
-{
-    isJumpscareActive = false; // Reset tanda agar tidak terpanggil terus menerus
-    
-    if (gameOverPopup != null)
-        gameOverPopup.SetActive(true);
-
-    // Pause game hanya SETELAH popup muncul
-    Time.timeScale = 0f;
-}
-
-
+        isPopupShown = true; // agar popup tidak muncul berkali-kali
+        // Game tetap pause
+        Time.timeScale = 0f;
+    }
 
     public void ResetAll()
     {
         wrongCount = 0;
         isJumpscareActive = false;
+        isPopupShown = false;
 
-        lightGlitch.SetActive(false);
-        heavyGlitch.SetActive(false);
-        jumpscareObject.SetActive(false);
+        if (lightGlitch != null) lightGlitch.SetActive(false);
+        if (heavyGlitch != null) heavyGlitch.SetActive(false);
+        if (jumpscareObject != null) jumpscareObject.SetActive(false);
+        if (gameOverPopup != null) gameOverPopup.SetActive(false);
 
-         if (gameOverPopup != null)
-             gameOverPopup.SetActive(false);
-
-    Time.timeScale = 1f;
+        Time.timeScale = 1f;
     }
 }
