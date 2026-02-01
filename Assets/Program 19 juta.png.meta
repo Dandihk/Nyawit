@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: abd97b61395c63c4ebca709a9ee5eaf0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7057437452712211804
+    second: Program 19 juta_0
+  - first:
+      213: 441678022015615003
+    second: Program 19 juta_1
+  - first:
+      213: 7646415746147347486
+    second: Program 19 juta_2
+  - first:
+      213: 2817331819527274495
+    second: Program 19 juta_3
+  - first:
+      213: -7046253867979385223
+    second: Program 19 juta_4
+  - first:
+      213: -789846614516274877
+    second: Program 19 juta_5
+  - first:
+      213: -9153923191583710259
+    second: Program 19 juta_6
+  - first:
+      213: -9174590924767670653
+    second: Program 19 juta_7
+  - first:
+      213: 8880706316378968302
+    second: Program 19 juta_8
+  - first:
+      213: 8740148237670676603
+    second: Program 19 juta_9
+  - first:
+      213: -8222240081749796544
+    second: Program 19 juta_10
+  - first:
+      213: -1051898677579016526
+    second: Program 19 juta_11
+  - first:
+      213: -1435834425962942007
+    second: Program 19 juta_12
+  - first:
+      213: 1015014888056782413
+    second: Program 19 juta_13
+  - first:
+      213: 1539044504933498896
+    second: Program 19 juta_14
+  - first:
+      213: -1132572099681581050
+    second: Program 19 juta_15
+  - first:
+      213: 349734593225278112
+    second: Program 19 juta_16
+  - first:
+      213: 858431596693583824
+    second: Program 19 juta_17
+  - first:
+      213: -62301409630628320
+    second: Program 19 juta_18
+  - first:
+      213: -5419210634513235492
+    second: Program 19 juta_19
+  - first:
+      213: 425126620986226540
+    second: Program 19 juta_20
+  - first:
+      213: -3134257223625781204
+    second: Program 19 juta_21
+  - first:
+      213: 6911573137386350196
+    second: Program 19 juta_22
+  - first:
+      213: -5491328585462316706
+    second: Program 19 juta_23
+  - first:
+      213: 4401626530791078688
+    second: Program 19 juta_24
+  - first:
+      213: 361181869952260298
+    second: Program 19 juta_25
+  - first:
+      213: -3712432718170074420
+    second: Program 19 juta_26
+  - first:
+      213: 7597395360041833832
+    second: Program 19 juta_27
+  - first:
+      213: -1884352002941097794
+    second: Program 19 juta_28
+  - first:
+      213: -4310565177564609
+    second: Program 19 juta_29
+  - first:
+      213: 5179121535938198637
+    second: Program 19 juta_30
+  - first:
+      213: -1127109246206322791
+    second: Program 19 juta_31
+  - first:
+      213: -7874061915040915813
+    second: Program 19 juta_32
+  - first:
+      213: 3056948488263620659
+    second: Program 19 juta_33
+  - first:
+      213: -2797302844164950814
+    second: Program 19 juta_34
+  - first:
+      213: 6409145901376824788
+    second: Program 19 juta_35
+  - first:
+      213: 1920103300606894246
+    second: Program 19 juta_36
+  - first:
+      213: 2865875502438996906
+    second: Program 19 juta_37
+  - first:
+      213: -4309627897830913129
+    second: Program 19 juta_38
+  - first:
+      213: 7772410788336226971
+    second: Program 19 juta_39
+  - first:
+      213: -9181736718542704517
+    second: Program 19 juta_40
+  - first:
+      213: -8569633688516139443
+    second: Program 19 juta_41
+  - first:
+      213: 4565985382796998573
+    second: Program 19 juta_42
+  - first:
+      213: 5176962632205482447
+    second: Program 19 juta_43
+  - first:
+      213: -5287034876236283081
+    second: Program 19 juta_44
+  - first:
+      213: -7376942020095764128
+    second: Program 19 juta_45
+  - first:
+      213: 5056078319924908786
+    second: Program 19 juta_46
+  - first:
+      213: -8229632535001922621
+    second: Program 19 juta_47
+  - first:
+      213: 6801651382610649203
+    second: Program 19 juta_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Program 19 juta_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa0d865702fe0e90800000000000000
+      internalID: -7057437452712211804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_1
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 33
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10865722d7212600800000000000000
+      internalID: 441678022015615003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ce012db968d1a60800000000000000
+      internalID: 7646415746147347486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 28
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffff35dec5c291720800000000000000
+      internalID: 2817331819527274495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 33
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976ddd1907da63e90800000000000000
+      internalID: -7046253867979385223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34966ba50b6e905f0800000000000000
+      internalID: -789846614516274877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 33
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc361785b5bb6f080800000000000000
+      internalID: -9153923191583710259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 33
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e43b9b92e4da080800000000000000
+      internalID: -9174590924767670653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_8
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 33
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0165eb75b9e3b70800000000000000
+      internalID: 8880706316378968302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 28
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78fd9ec38e3b4970800000000000000
+      internalID: 8740148237670676603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 48
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049135d753cb4ed80800000000000000
+      internalID: -8222240081749796544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_11
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b61337d9b7e661f0800000000000000
+      internalID: -1051898677579016526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_12
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 33
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1b33c6234e21ce0800000000000000
+      internalID: -1435834425962942007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e7b54b9ae061e00800000000000000
+      internalID: 1015014888056782413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_14
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 28
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0100412b2d8cb5510800000000000000
+      internalID: 1539044504933498896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_15
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60806fb0dab4840f0800000000000000
+      internalID: -1132572099681581050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_16
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 33
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2cbd272c18ad400800000000000000
+      internalID: 349734593225278112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d774e03df2c9eb00800000000000000
+      internalID: 858431596693583824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_18
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 33
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026d5f1b239a22ff0800000000000000
+      internalID: -62301409630628320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_19
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 28
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1c1ded3a81bc4b0800000000000000
+      internalID: -5419210634513235492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 48
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67327cc86a56e500800000000000000
+      internalID: 425126620986226540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20551f39a1e084d0800000000000000
+      internalID: -3134257223625781204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_22
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476ab0d3627daef50800000000000000
+      internalID: 6911573137386350196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_23
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51029eeeb1eac3b0800000000000000
+      internalID: -5491328585462316706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_24
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 33
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bbcb94208b51d30800000000000000
+      internalID: 4401626530791078688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 33
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8d0d14ffc230500800000000000000
+      internalID: 361181869952260298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_26
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc25fe4bc1aca7cc0800000000000000
+      internalID: -3712432718170074420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_27
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659e75c3de5f6960800000000000000
+      internalID: 7597395360041833832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb866e846df69d5e0800000000000000
+      internalID: -1884352002941097794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_29
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f326fc5509fa0fff0800000000000000
+      internalID: -4310565177564609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cfb26c89fefd740800000000000000
+      internalID: 5179121535938198637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_31
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99750dcbc14bb50f0800000000000000
+      internalID: -1127109246206322791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_32
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 4
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9edd862866b9b290800000000000000
+      internalID: -7874061915040915813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 4
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338de9324767c6a20800000000000000
+      internalID: 3056948488263620659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_34
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 4
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4bb5c42ebfd29d0800000000000000
+      internalID: -2797302844164950814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_35
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5673d7d3cd1f850800000000000000
+      internalID: 6409145901376824788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_36
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 4
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0aabc57c395aa10800000000000000
+      internalID: 1920103300606894246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabde5dd592a5c720800000000000000
+      internalID: 2865875502438996906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_38
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bcca3a2402134c0800000000000000
+      internalID: -4309627897830913129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_39
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4
+        width: 29
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92d1379e662ddb60800000000000000
+      internalID: 7772410788336226971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_40
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70f916f91be39080800000000000000
+      internalID: -9181736718542704517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_41
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4666cc609b821980800000000000000
+      internalID: -8569633688516139443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_42
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 4
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7bd379383ad5f30800000000000000
+      internalID: 4565985382796998573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 4
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc93414d51448d740800000000000000
+      internalID: 5176962632205482447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 4
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733c5debacda0a6b0800000000000000
+      internalID: -5287034876236283081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_45
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 4
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0691a834156df9990800000000000000
+      internalID: -7376942020095764128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 4
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f29da7917cca2640800000000000000
+      internalID: 5056078319924908786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_47
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 4
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c38637dfc87acd80800000000000000
+      internalID: -8229632535001922621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Program 19 juta_48
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 4
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3706d8255e1546e50800000000000000
+      internalID: 6801651382610649203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Program 19 juta_0: -7057437452712211804
+      Program 19 juta_1: 441678022015615003
+      Program 19 juta_10: -8222240081749796544
+      Program 19 juta_11: -1051898677579016526
+      Program 19 juta_12: -1435834425962942007
+      Program 19 juta_13: 1015014888056782413
+      Program 19 juta_14: 1539044504933498896
+      Program 19 juta_15: -1132572099681581050
+      Program 19 juta_16: 349734593225278112
+      Program 19 juta_17: 858431596693583824
+      Program 19 juta_18: -62301409630628320
+      Program 19 juta_19: -5419210634513235492
+      Program 19 juta_2: 7646415746147347486
+      Program 19 juta_20: 425126620986226540
+      Program 19 juta_21: -3134257223625781204
+      Program 19 juta_22: 6911573137386350196
+      Program 19 juta_23: -5491328585462316706
+      Program 19 juta_24: 4401626530791078688
+      Program 19 juta_25: 361181869952260298
+      Program 19 juta_26: -3712432718170074420
+      Program 19 juta_27: 7597395360041833832
+      Program 19 juta_28: -1884352002941097794
+      Program 19 juta_29: -4310565177564609
+      Program 19 juta_3: 2817331819527274495
+      Program 19 juta_30: 5179121535938198637
+      Program 19 juta_31: -1127109246206322791
+      Program 19 juta_32: -7874061915040915813
+      Program 19 juta_33: 3056948488263620659
+      Program 19 juta_34: -2797302844164950814
+      Program 19 juta_35: 6409145901376824788
+      Program 19 juta_36: 1920103300606894246
+      Program 19 juta_37: 2865875502438996906
+      Program 19 juta_38: -4309627897830913129
+      Program 19 juta_39: 7772410788336226971
+      Program 19 juta_4: -7046253867979385223
+      Program 19 juta_40: -9181736718542704517
+      Program 19 juta_41: -8569633688516139443
+      Program 19 juta_42: 4565985382796998573
+      Program 19 juta_43: 5176962632205482447
+      Program 19 juta_44: -5287034876236283081
+      Program 19 juta_45: -7376942020095764128
+      Program 19 juta_46: 5056078319924908786
+      Program 19 juta_47: -8229632535001922621
+      Program 19 juta_48: 6801651382610649203
+      Program 19 juta_5: -789846614516274877
+      Program 19 juta_6: -9153923191583710259
+      Program 19 juta_7: -9174590924767670653
+      Program 19 juta_8: 8880706316378968302
+      Program 19 juta_9: 8740148237670676603
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

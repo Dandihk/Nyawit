@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: fd5f0666d64da4c49920f0c5f5c8057a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7494576300240292643
+    second: Daftar sekarang!_0
+  - first:
+      213: -1331980823437988597
+    second: Daftar sekarang!_1
+  - first:
+      213: -7912094008126297332
+    second: Daftar sekarang!_2
+  - first:
+      213: 1998239001898103222
+    second: Daftar sekarang!_3
+  - first:
+      213: 1687878024354398672
+    second: Daftar sekarang!_4
+  - first:
+      213: 7454337630039281837
+    second: Daftar sekarang!_5
+  - first:
+      213: -3928458188834962680
+    second: Daftar sekarang!_6
+  - first:
+      213: -9046164199241913760
+    second: Daftar sekarang!_7
+  - first:
+      213: -3327518741020501970
+    second: Daftar sekarang!_8
+  - first:
+      213: -568062013703332034
+    second: Daftar sekarang!_9
+  - first:
+      213: 106499452990031977
+    second: Daftar sekarang!_10
+  - first:
+      213: 3449744194211229695
+    second: Daftar sekarang!_11
+  - first:
+      213: 6114670781291517800
+    second: Daftar sekarang!_12
+  - first:
+      213: -1718875430017786081
+    second: Daftar sekarang!_13
+  - first:
+      213: 1393584216489286015
+    second: Daftar sekarang!_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Daftar sekarang!_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4bd1a109aedf790800000000000000
+      internalID: -7494576300240292643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 6
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0da85b8f7ad38de0800000000000000
+      internalID: -1331980823437988597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 6
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ba2207b68923290800000000000000
+      internalID: -7912094008126297332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 6
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1b77cf8cb2bbb10800000000000000
+      internalID: 1998239001898103222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_4
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 6
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d105d1de1c8c6710800000000000000
+      internalID: 1687878024354398672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 6
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0915a6490237760800000000000000
+      internalID: 7454337630039281837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_6
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 6
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803848357105b79c0800000000000000
+      internalID: -3928458188834962680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 6
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a6454e691957280800000000000000
+      internalID: -9046164199241913760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_8
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 6
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e289402c55742d1d0800000000000000
+      internalID: -3327518741020501970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 6
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3fd1d6bb96dd18f0800000000000000
+      internalID: -568062013703332034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 6
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9688e3030bc5a7100800000000000000
+      internalID: 106499452990031977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 6
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff2ded2114ffdf20800000000000000
+      internalID: 3449744194211229695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_12
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867575dbdacabd450800000000000000
+      internalID: 6114670781291517800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_13
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 6
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f94a447e35528e0800000000000000
+      internalID: -1718875430017786081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daftar sekarang!_14
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 13
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f795f6c1671075310800000000000000
+      internalID: 1393584216489286015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Daftar sekarang!_0: -7494576300240292643
+      Daftar sekarang!_1: -1331980823437988597
+      Daftar sekarang!_10: 106499452990031977
+      Daftar sekarang!_11: 3449744194211229695
+      Daftar sekarang!_12: 6114670781291517800
+      Daftar sekarang!_13: -1718875430017786081
+      Daftar sekarang!_14: 1393584216489286015
+      Daftar sekarang!_2: -7912094008126297332
+      Daftar sekarang!_3: 1998239001898103222
+      Daftar sekarang!_4: 1687878024354398672
+      Daftar sekarang!_5: 7454337630039281837
+      Daftar sekarang!_6: -3928458188834962680
+      Daftar sekarang!_7: -9046164199241913760
+      Daftar sekarang!_8: -3327518741020501970
+      Daftar sekarang!_9: -568062013703332034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

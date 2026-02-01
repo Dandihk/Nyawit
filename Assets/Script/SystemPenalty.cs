@@ -112,12 +112,11 @@ public class SystemPenalty : MonoBehaviour
     if (jumpscareObject == null)
     {
         Debug.LogError("JUMPSCARE NULL! Object belum di-assign di inspector.");
+        return;
     }
-    else
-    {
-        Debug.Log("JUMPSCARE BERHASIL DIAKTIFKAN");
-        jumpscareObject.SetActive(true);
-    }
+
+    jumpscareObject.SetActive(true);
+    Debug.Log("JUMPSCARE BERHASIL DIAKTIFKAN: " + jumpscareObject.name);
 
     if (lightGlitch != null)
         lightGlitch.SetActive(false);
@@ -125,6 +124,7 @@ public class SystemPenalty : MonoBehaviour
     if (heavyGlitch != null)
         heavyGlitch.SetActive(false);
 }
+
 
 
     public void ResetAll()
