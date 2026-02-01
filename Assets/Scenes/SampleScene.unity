@@ -697,7 +697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6098c6226d74234485ee61e2f6d4086, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SystemPenalty
-  lightGlitch: {fileID: 770867942}
+  lightGlitch: {fileID: 1659229367}
   heavyGlitch: {fileID: 1173312404}
   jumpscareObject: {fileID: 442625435}
   gameOverPopup: {fileID: 1059940877}
