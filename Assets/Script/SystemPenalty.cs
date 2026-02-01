@@ -14,6 +14,7 @@ public class SystemPenalty : MonoBehaviour
     public Transform spawnerParent;   // parent spawner tombol
 
     private int wrongCount = 0;
+    private int correctCount = 0;
     private float lastWrongTime = 0f;
     private bool isJumpscareActive = false;
     private bool isPopupShown = false;
@@ -50,6 +51,7 @@ public class SystemPenalty : MonoBehaviour
     public void WrongPressed()
     {
         wrongCount++;
+        correctCount = 0;
         lastWrongTime = Time.time;
 
         if (wrongCount == 1)
@@ -62,9 +64,17 @@ public class SystemPenalty : MonoBehaviour
 
     public void CorrectPressed()
     {
-        if (wrongCount > 0 && Time.time - lastWrongTime <= 2f)
+        if (wrongCount > 0)
         {
-            ResetAll();
+            correctCount++; // Tambah hitungan benar
+            Debug.Log("Correct Count: " + correctCount);
+
+            // Jika sudah benar 2x, baru hapus semua glitch
+            if (correctCount >= 2)
+            {
+                Debug.Log("Glitch Clear!");
+                ResetAll();
+            }
         }
     }
 
